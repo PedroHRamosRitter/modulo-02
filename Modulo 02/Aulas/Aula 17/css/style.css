@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(202, 189, 154);
+}
+
+p{
+    font-size: 25px;
+    text-align: justify;
+}
+
+h1{
+
+    text-align: center;
+    font-size: 32px;
+    color: blue;
+}
+.card{
+    background-color: white;
+    width: 550px;
+    height: auto; 
+    margin: 50px auto; /* espaçamento externo */
+    padding: 30px; /* espaçamento interno */
+    border: 2px solid black; /* borda no caso preta */
+    /* Comentário */
+}
+
+.card h1{
+    color: black;
+
+}
+
+
+h2{
+    color: aqua;
+}
+
+#texto{  
+    font-size: 10px;
+}
+
+#texto2{
+        color: blue;
+}

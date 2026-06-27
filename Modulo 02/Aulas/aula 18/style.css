@@ -1,0 +1,32 @@
+.caixa{
+    background-color: aquamarine;
+    padding: 30px;
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; -> Fica em linha e como nao esta com reverso fica 1, 2, 3
+    flex-direction: column-reverse; -> Mesma coisa do de cima so que com reverso que fica 3, 2, 1
+    flex-direction: row; -> Fica Em quadrados
+    flex-direction: row-reverse; -> Mesma coisa do de cima so que com a sequencia 3, 2, 1  */
+    background-color: midnightblue;
+    justify-content: center;
+    /* justify-content: flex-start; -> Comeca no comeco
+    justify-content: flex-end; -> comaca no fim
+    justify-content: center; -> fica no centro 
+    justify-content: space-between; -> Primeiro item a esquerda o ultimo item a direita e os itens do meio ficam no meio 
+    justify-content: space-around; -> Parecido com o de cima so que ficam mais nao fica tudo a direita fica tipo centro direita e a mesma coisa para a da esquerda
+    space-between espaço entre,
+    space-around, espaço em torno
+    justify-content: space-evenly; -> Espacamento igual entra as bordas e cada item o mesmo para o da esquerda, direita e centro*/
+    height: 400px;
+    align-items: center;
+    /* align-items: stretch; */
+    gap: 20px;    
+    flex-wrap: wrap-reverse;
+    /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1>Estudos DOM</h1>
+    <p>Apendendo a usar o DOM em javascript</p>
+    <p>Aqui que vai mudar</p>
+    <!-- <p id="msg">Vamos usar outro seletor</p> -->
+    <p class="msg">Vamos usar outro <b>seletor</b></p>
+
+    <label for="nome">Digite seu nome: </label>
+    <input type="text" id="nome" name="nome"> 
+    <button onclick="mostrarNome()">Mostrar</button>
+    <p id="resultado"></p>
+    
+    <p class="texto">Vamos usar querySelector</p>
+
+    <script>
+        // window.document.write("Testando o Dom")
+        let paragrafo = document.getElementsByTagName('p')[1]
+        
+        paragrafo.innerText = "Texto alterado pelo JavaScript"
+        paragrafo.style.color = 'blue'
+        // document.getElementsByTagName('p')[0].innerText = "Mudou direto"
+        
+        // let p2 = document.getElementById("msg")
+        let p2 = document.getElementsByClassName("msg")[0]
+
+        p2.innerHTML = "Mudamos o texto usando o seletor <strong>CLASSE</strong>"
+
+        function mostrarNome() {
+            // let nome = document.getElementsByName("nome")[0].value
+            const campo = document.querySelector("[name = 'nome']")
+            let nome = campo.value
+            document.getElementById("resultado").innerText = `Olá, ${nome}`
+        }
+
+        // Quando for class é . e quando for id é #
+        let texto = document.querySelector(".texto")
+        texto[4].innerText = "Usamos o querySelectro pelo TAG"
+        
+    </script>
+</body>
+</html>
