@@ -13,6 +13,8 @@ export function registar (usuario) {
         throw new Error('Já existe este email')
     }
 
-    usuarios.push
+    usuarios.push(usuario)
+    localStorage.setItem(CHAVE_USUARIO, JSON.stringify(usuarios))
+
 
 }
