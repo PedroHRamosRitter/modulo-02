@@ -1,3 +1,4 @@
+import { registar } from "./auth"
 const form = document.querySelector('#form-cadastro')
 
 // Registrar o usuário ao enviar o formulário
@@ -8,6 +9,6 @@ form.addEventListener('submit', (evento) => {
         email: document.querySelector('#email').value,
         senha: document.querySelector('#senha').value
     }
-    console.log(usuario)
-}
-)
+
+    registar(usuario)
+})
