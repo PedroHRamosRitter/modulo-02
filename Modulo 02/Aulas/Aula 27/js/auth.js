@@ -13,4 +13,6 @@ export function registar (usuario) {
         throw new Error('Já existe este email')
     }
 
+    usuarios.push
+
 }
