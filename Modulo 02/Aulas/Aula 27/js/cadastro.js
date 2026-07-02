@@ -1,4 +1,4 @@
-import { registar } from "./auth"
+import { registar } from "./auth.js"
 const form = document.querySelector('#form-cadastro')
 const aviso = document.querySelector('#aviso')
 
