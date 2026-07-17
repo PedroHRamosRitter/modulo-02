@@ -1,10 +1,18 @@
 :root {
     --tinta: #111111;
     --papel: #f7f4ec;
+    --urgente: #b3001b;
     --cinza-legenda: #5d5a52;
 
     --font-manchete: Georgia, 'Times New Roman', serif;
     --font-ui: Arial, Helvetica, sans-serif;
 
-    --urgente: #c62828
 }
+
+[data-theme="dark"] {
+    --tinta: #e8e4d8;
+    --papel: #191817;
+    --urgente: #ff5468;
+    --cinza-legenda: #a5a196/
+}
+
