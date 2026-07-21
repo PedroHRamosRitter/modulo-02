@@ -3,7 +3,7 @@ import axios from "axios";
 export async function buscarCep(cep) {
     const cepLimpo = cep.replace(/\D/g, '')
 
-    if(cep.cepLimpo.length !== 8) {
+    if(cepLimpo.length !== 8) {
         throw new Error ('O CEP dave ter 8 dígitos.')
     }
 
