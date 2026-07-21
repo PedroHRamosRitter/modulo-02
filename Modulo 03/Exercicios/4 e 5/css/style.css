@@ -1,0 +1,80 @@
+/* Logo */
+.titulo {
+    text-align: center;
+}
+
+.tech {
+    color: var(--cor-tech);
+}
+
+.aula {
+    color: var(--cor-aula);
+}
+
+/* Main */
+
+.paragrafo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragrafo_dividido {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.paragrafo .texto {
+    max-width: 400px;
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.texto {
+    color: var(--cor-paragrafo);
+    font-size: 25px;
+    font-family: var(--font-ui);
+}
+
+.subtitulo {
+    text-align: center;
+}
+
+.montagem_centro {
+    text-align: center;
+}
+
+.subtitulo_montagem {
+    color: var(--cor-paragrafo_inicio);
+}
+
+.subtitulo_formatacao {
+    color: var(--cor-subtitulo_inicio);
+    text-align: center;
+}
+
+
+.horario-div {
+    text-align: center;
+    color: var(--cor-paragrafo);
+}
+
+.frase_horario {
+    color: var(--cor-paragrafo_inicio);
+}
+
+.frase_horario h3 {
+    font-weight: bold;
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid black;
+}
+
+.linha-tracejada {
+    border: none;
+    border-top: 1px dashed #000;
+}

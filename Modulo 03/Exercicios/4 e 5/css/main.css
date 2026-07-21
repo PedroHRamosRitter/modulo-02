@@ -1,0 +1,21 @@
+@import "base/variables.css";
+@import "base/reset.css";
+
+@import "components/banner.css";
+@import "components/videos.css";
+@import "components/maps.css";
+@import "components/dropdown.css";
+@import "components/button.css";
+@import "components/form.css";
+@import "components/card.css";
+@import "components/auth.css";
+
+
+@import "layout/header.css";
+@import "layout/footer.css";
+
+@import "style.css";
+@import "html.css";
+@import "inicio.css";
+
+

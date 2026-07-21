@@ -1,0 +1,36 @@
+.area-auth {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 10px;
+    padding-left: 15px;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    font-family: var(--font-ui);
+    font-size: 15px;
+}
+
+.area-auth a {
+    text-decoration: none;
+}
+
+.area-auth .saudacao {
+    color: var(--cor-titulo);
+}
+
+.area-auth .entrar {
+    color: var(--cor-titulo);
+}
+
+.area-auth .entrar:hover {
+    color: var(--cor-fundo);
+    font-weight: bold;
+}
+
+.area-auth .sair {
+    color: var(--urgente);
+    font-weight: bold;
+}
+
+.area-auth .sair:hover {
+    color: #b71c1c;
+}

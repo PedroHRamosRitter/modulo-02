@@ -1,0 +1,37 @@
+window.location.pathname
+// retorna o caminho da página atual
+// ex: "/pages/cursos/html.html"
+
+.split('/')
+// divide em partes: ["", "pages", "cursos", "html.html"]
+
+.length - 2
+// conta as pastas, descontando a raiz e o arquivo
+// resultado: 2 (duas pastas de profundidade)
+
+'../'.repeat(2)
+// repete "../" 2 vezes → "../../"
+
+
+this.innerHTML = `
+<div class="banner" style="
+    background-image: url('${raiz}assets/banner/${imagem}');  /* caminho da imagem: raiz (calculado automaticamente) + pasta assets/banner/ + nome do arquivo passado pelo atributo imagem="..." */
+    background-size: cover;        /* a imagem cobre todo o banner sem distorcer */
+    background-position: center;   /* centraliza a imagem no banner */
+    background-repeat: no-repeat;  /* impede a imagem de repetir */
+">
+    <h1 class="banner__titulo">${titulo}</h1>  <!-- titulo vem do atributo titulo="..." no HTML -->
+</div>`
+
+
+this.innerHTML = `
+<div class="banner" style="background-image: url('${raiz}assets/banner/${imagem}')">
+    <!-- apenas o background-image fica aqui pois muda em cada página -->
+    <!-- as demais propriedades (size, position, repeat) ficam no banner.css -->
+    <h1 class="banner__titulo">${titulo}</h1>  <!-- titulo vem do atributo titulo="..." -->
+</div>`
+
+<span class="tech">TECH</span> <img src="${raiz}assets/logo/logo.png" alt="logo"> <span class="aula">AULA</span>
+
+
+

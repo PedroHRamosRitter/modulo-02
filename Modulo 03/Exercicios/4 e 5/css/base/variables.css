@@ -1,0 +1,23 @@
+:root {
+    --cor-titulo: #F9F9F9;
+    --cor-navegacao: #1C1C1C;
+
+    --cor-subtitulo_inicio: #1C4587;
+    --cor-paragrafo_inicio: #6AA84F;
+    --cor-tech: #1E6AB8;
+    --cor-aula: #06BC63;
+
+    --cor-paragrafo: #1a1a1a;
+    --cor-fundo: #ffffff;
+    --cor-suave: #7a7a7a;
+    --cor-fundorodape: #080808;
+    --cor-rodape: #ffffff;
+
+    --urgente: #e53935;
+    
+
+    --font-corpo: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --font-ui: Arial, Helvetica, sans-serif;
+
+    --raio: 8px;
+}

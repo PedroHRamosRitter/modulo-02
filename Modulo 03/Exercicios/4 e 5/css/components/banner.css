@@ -1,0 +1,19 @@
+.banner {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__titulo {
+    color: var(--cor-titulo);
+}
+
+.espaco {
+    margin-top: 25px;
+}

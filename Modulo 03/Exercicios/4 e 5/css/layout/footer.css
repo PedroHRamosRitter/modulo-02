@@ -1,0 +1,30 @@
+.rodape {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    background-color: var(--cor-fundorodape);
+    color: var(--cor-rodape);
+    text-align: center;
+    padding: 18px;
+    font-family: var(--font-ui);
+    font-size: 14px;
+    margin-top: 100px;
+}
+
+.rodape h4 {
+    margin-bottom: 10px;
+}
+
+.frase__rodape {
+    color: #616161;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.redes-sociais img {
+    width: 25px;
+}

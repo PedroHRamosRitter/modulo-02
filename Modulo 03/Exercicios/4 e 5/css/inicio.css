@@ -1,0 +1,39 @@
+/* Main início */
+
+.subtitulo_inicio {
+    color: var(--cor-subtitulo_inicio);
+    text-align: center;
+}
+
+.sobre_nos_inicio {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.sobre_nos_inicio .texto_inicio {
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.texto_inicio {
+    color: var(--cor-paragrafo_inicio);
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+.logo_inicio {
+    display: flex;
+    font-size: 50px;
+    margin-top:10px;
+    align-items: center;
+    text-decoration: none;
+    gap: 4px;
+    justify-content: center;
+}
+
+.logo_inicio img {
+    height: 75px;
+    width: auto;
+}
