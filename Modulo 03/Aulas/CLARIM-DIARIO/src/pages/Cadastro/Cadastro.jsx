@@ -58,6 +58,9 @@ function Cadastro() {
         <label htmlFor="email">E-mail</label>
         <input id="email" type="email" value={form.email} onChange={atualizarCampo} required />
 
+        <label htmlFor="senha">Senha</label>
+        <input type="password" id='senha' value={form.senha} onChange={atualizarCampo} required />
+
         <label htmlFor="cep">CEP</label>
         {/* onBlur: ao sair do campo, consulta a ViaCEP */}
         <input id="cep" value={form.cep} onChange={atualizarCampo}
