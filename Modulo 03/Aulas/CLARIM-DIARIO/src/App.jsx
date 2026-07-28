@@ -7,6 +7,7 @@ import Cadastro from './pages/Cadastro/Cadastro'
 import Login from './pages/Login/Login'
 import RotaProtegida from './components/RotaProtegida'
 import Painel from './pages/Painel/Painel'
+import Footer from './components/Footer/Footer'
 import './App.css'
 
 function App() {
