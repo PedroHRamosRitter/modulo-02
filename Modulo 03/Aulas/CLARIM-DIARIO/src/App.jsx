@@ -45,6 +45,7 @@ function App() {
           </RotaProtegida>
         }></Route>
       </Routes>
+      <Footer />
     </>
   )
 }

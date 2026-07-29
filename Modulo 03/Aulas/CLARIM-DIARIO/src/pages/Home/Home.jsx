@@ -28,7 +28,7 @@ function Home() {
     if(carregando) return <p className="aviso-tela">Carregando a edição...</p>
     if(erro) return <p className="aviso-tela">{erro}</p>
 
-    const [ manchhete, ...demais ] = noticias 
+    const [ manchete, ...demais ] = noticias 
 
     return(
         <main className='container'>
